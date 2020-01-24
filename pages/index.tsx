@@ -29,7 +29,7 @@ const Index = (props: any) => {
 
 Index.getInitialProps = async () => {
   try {
-    const res = await fetch('http://jsonplaceholder.typicode.com/users/')
+    const res = await fetch('https://jsonplaceholder.typicode.com/users/')
     const data = await res.json()
 
     return {

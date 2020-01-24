@@ -9,7 +9,7 @@ const Post: React.FC = () => {
 
   const fetchUser = async (id: string) => {
     try {
-      const response = await fetch(`http://jsonplaceholder.typicode.com/users/${id}`)
+      const response = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
       const json = await response.json()
       return json
     } catch (error) {
