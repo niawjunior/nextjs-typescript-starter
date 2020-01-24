@@ -1,0 +1,1 @@
+{"ast":null,"code":"import fetch from 'unfetch';\nexport default fetch;","map":{"version":3,"sources":["/Users/niawjunior/Desktop/true/bismarck-ui-ts/fetch/browser.js"],"names":["fetch"],"mappings":"AAAA,OAAOA,KAAP,MAAkB,SAAlB;AAEA,eAAeA,KAAf","sourcesContent":["import fetch from 'unfetch'\n\nexport default fetch\n"]},"metadata":{},"sourceType":"module"}
